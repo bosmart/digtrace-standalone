@@ -1,0 +1,1 @@
+"C:\Python27\python.exe" setup_pro.py bdist_msi -d "pro_installer"

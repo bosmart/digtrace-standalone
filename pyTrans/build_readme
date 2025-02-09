@@ -1,0 +1,14 @@
+To build the installer:
+
+1) (Optional) To not get any debug console, uncomment the following lines in MainFrame.py, if not done already 
+        70 sys.stdout = self.log
+        71 sys.stderr = self.log
+
+2) (Optional) To not get any debug console from 3D image generation, uncomment the following line in PhotogrammetryGenerator.py, if not done already 
+        97 sys.stdout = open(os.path.join(fname, "log" + str(int(time.time())) + ".txt"), "w", 0)
+        
+3) Update the version number in setup_pro.py in the following line:
+        22 VERSION = '1.8.3'
+        
+4) Run installer_build.bat
+
