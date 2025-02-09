@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+pyTrans/TrackTransformer-0-0-5.zip filter=lfs diff=lfs merge=lfs -text
